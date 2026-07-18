@@ -5,9 +5,13 @@
       <stop offset="1" stop-color="#020a06"/>
     </linearGradient>
     <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a3d23"/>
-      <stop offset="0.5" stop-color="#00ff41" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#062916"/>
+      <stop offset="0" stop-color="#06170e"/>
+      <stop offset="0.5" stop-color="#1c7a41" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#04120b"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16382a"/>
+      <stop offset="1" stop-color="#0a2015"/>
     </linearGradient>
     <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#101815"/>
@@ -65,39 +69,51 @@
     <path d="M226 278 l-26 24 l18 30 l22 -34 Z" fill="#0d1410"/>
     <!-- camisa -->
     <path d="M186 292 h28 l-6 56 h-16 Z" fill="#e9efe9"/>
-    <!-- corbata -->
+    <!-- corbata con pisacorbata -->
     <path d="M200 296 l9 12 l-6 44 l-3 6 l-3 -6 l-6 -44 Z" fill="url(#tie)"/>
     <path d="M200 296 l9 12 l-9 4 l-9 -4 Z" fill="#123322"/>
+    <rect x="192" y="330" width="16" height="4" rx="2" fill="#9fb3a6" opacity="0.85"/>
 
     <!-- cabeza -->
     <path d="M200 112 c-30 0 -44 20 -44 50 c0 28 16 62 44 62 c28 0 44 -34 44 -62 c0 -30 -14 -50 -44 -50 Z" fill="#d9b48f"/>
     <!-- orejas -->
     <path d="M154 172 c-8 -2 -12 6 -8 14 c3 6 10 8 14 4 Z" fill="#c9a077"/>
     <path d="M246 172 c8 -2 12 6 8 14 c-3 6 -10 8 -14 4 Z" fill="#c9a077"/>
-    <!-- pelo engominado hacia atrás -->
-    <path d="M156 164 c-3 -34 16 -54 44 -54 c28 0 47 20 44 54 l-7 2 c2 -20 -4 -32 -15 -37 c-7 -3 -14 -5 -22 -5 c-8 0 -15 2 -22 5 c-11 5 -17 17 -15 37 Z" fill="#1b1512"/>
-    <path d="M163 128 c10 -10 24 -14 37 -14 c13 0 27 4 37 14" fill="none" stroke="#3a2c22" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
-    <!-- anteojos -->
+    <!-- pelo engominado, entradas y pico de viuda -->
+    <path d="M155 153 C152 123 173 105 200 105 C227 105 248 123 245 153 C240 138 233 130 224 128 C217 127 208 132 200 150 C192 132 183 127 176 128 C167 130 160 138 155 153 Z" fill="#1b1512"/>
+    <path d="M170 120 c9 -8 19 -11 30 -11 c11 0 21 3 30 11" fill="none" stroke="#3a2c22" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <!-- anteojos angostos -->
     <g>
-      <rect x="162" y="164" width="34" height="25" rx="7" fill="#05080a"/>
-      <rect x="204" y="164" width="34" height="25" rx="7" fill="#05080a"/>
-      <rect x="165" y="167" width="28" height="19" rx="5" fill="url(#lens)"/>
-      <rect x="207" y="167" width="28" height="19" rx="5" fill="url(#lens)"/>
-      <rect x="196" y="171" width="8" height="4" rx="2" fill="#05080a"/>
-      <path d="M162 172 l-8 -2 M238 172 l8 -2" stroke="#05080a" stroke-width="4" stroke-linecap="round"/>
-      <!-- reflejo -->
-      <path d="M169 170 l8 0 l-12 12 l0 -8 Z" fill="#b4ffce" opacity="0.35"/>
-      <path d="M211 170 l8 0 l-12 12 l0 -8 Z" fill="#b4ffce" opacity="0.35"/>
+      <rect x="165" y="166" width="31" height="19" rx="9" fill="#05080a"/>
+      <rect x="204" y="166" width="31" height="19" rx="9" fill="#05080a"/>
+      <rect x="168" y="169" width="25" height="13" rx="6" fill="url(#lens)"/>
+      <rect x="207" y="169" width="25" height="13" rx="6" fill="url(#lens)"/>
+      <rect x="195" y="172" width="10" height="4" rx="2" fill="#05080a"/>
+      <path d="M165 174 l-9 -3 M235 174 l9 -3" stroke="#05080a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M172 170 h16" stroke="#b4ffce" stroke-width="2" opacity="0.25" stroke-linecap="round"/>
+      <path d="M211 170 h16" stroke="#b4ffce" stroke-width="2" opacity="0.25" stroke-linecap="round"/>
     </g>
-    <!-- nariz y gesto -->
+    <!-- nariz y gesto severo -->
     <path d="M199 192 c0 6 -1 9 -4 12 c3 3 7 3 10 0" fill="none" stroke="#b08a63" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M188 216 c8 4 18 4 24 -1" fill="none" stroke="#8a6947" stroke-width="3" stroke-linecap="round"/>
+    <path d="M189 215 c8 3 15 3 22 0" fill="none" stroke="#8a6947" stroke-width="3" stroke-linecap="round"/>
 
     <!-- auricular con cable -->
     <circle cx="250" cy="180" r="5" fill="#0b0f0c" stroke="#00ff41" stroke-opacity="0.5" stroke-width="1.5"/>
     <path d="M252 185 c10 22 2 44 -14 64 c-6 8 -8 16 -6 26" fill="none" stroke="#9fb3a6" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
   </g>
 
-  <!-- brillo de borde inferior -->
-  <path d="M92 398 h216" stroke="#00ff41" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+  <!-- escritorio del interrogatorio -->
+  <path d="M0 342 H400 V352 A48 48 0 0 1 352 400 H48 A48 48 0 0 1 0 352 Z" fill="url(#desk)"/>
+  <path d="M8 343 H392" stroke="#b4ffce" stroke-opacity="0.22" stroke-width="2"/>
+  <!-- expediente sobre el escritorio -->
+  <g transform="rotate(-4 285 364)">
+    <rect x="230" y="360" width="124" height="23" rx="5" fill="#04110a" opacity="0.85"/>
+    <rect x="224" y="348" width="122" height="26" rx="4" fill="#2e8f57"/>
+    <rect x="224" y="348" width="122" height="9" rx="4" fill="#26744a"/>
+    <rect x="330" y="348" width="16" height="26" rx="3" fill="#0b2416"/>
+    <circle cx="338" cy="355" r="2" fill="#9fb3a6"/>
+    <circle cx="338" cy="361" r="2" fill="#9fb3a6"/>
+    <circle cx="338" cy="367" r="2" fill="#9fb3a6"/>
+    <circle cx="283" cy="358" r="3" fill="#cfe9d8" opacity="0.9"/>
+  </g>
 </svg>

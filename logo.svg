@@ -1,56 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="Open Pobres y Ausentes - clawbot abogado">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Agente Smith">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F5EFE6"/>
-      <stop offset="1" stop-color="#EADFCF"/>
+      <stop offset="0" stop-color="#04140b"/>
+      <stop offset="1" stop-color="#020a06"/>
     </linearGradient>
-    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#E4855E"/>
-      <stop offset="1" stop-color="#D97757"/>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a3d23"/>
+      <stop offset="0.5" stop-color="#00ff41" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#062916"/>
     </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101815"/>
+      <stop offset="1" stop-color="#060b08"/>
+    </linearGradient>
+    <linearGradient id="tie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1f14"/>
+      <stop offset="1" stop-color="#041008"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#00ff41" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
   </defs>
 
   <!-- fondo -->
-  <rect width="480" height="480" rx="96" fill="url(#bg)"/>
+  <rect x="0" y="0" width="400" height="400" rx="48" fill="url(#bg)"/>
+  <rect x="1" y="1" width="398" height="398" rx="47" fill="none" stroke="#00ff41" stroke-opacity="0.18" stroke-width="2"/>
 
-  <!-- toga / hombros del abogado -->
-  <path d="M120 452 Q240 360 360 452 Z" fill="#2E2A26"/>
-  <path d="M198 452 Q240 388 282 452 Z" fill="#F5EFE6"/>
-  <!-- moño / corbatín -->
-  <path d="M240 372 l-26 16 v-32 z" fill="#2E2A26"/>
-  <path d="M240 372 l26 16 v-32 z" fill="#2E2A26"/>
-  <circle cx="240" cy="372" r="7" fill="#2E2A26"/>
-
-  <!-- antena -->
-  <line x1="240" y1="70" x2="240" y2="104" stroke="#2E2A26" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="240" cy="62" r="12" fill="#D97757"/>
-
-  <!-- cabeza del clawbot -->
-  <rect x="128" y="104" width="224" height="196" rx="52" fill="url(#body)" stroke="#2E2A26" stroke-width="8"/>
-  <!-- orejas / auriculares -->
-  <rect x="108" y="168" width="26" height="72" rx="12" fill="#2E2A26"/>
-  <rect x="346" y="168" width="26" height="72" rx="12" fill="#2E2A26"/>
-
-  <!-- visor -->
-  <rect x="156" y="150" width="168" height="104" rx="36" fill="#2E2A26"/>
-  <!-- ojos amables -->
-  <circle cx="204" cy="202" r="20" fill="#F5EFE6"/>
-  <circle cx="276" cy="202" r="20" fill="#F5EFE6"/>
-  <circle cx="204" cy="202" r="9" fill="#2E2A26"/>
-  <circle cx="276" cy="202" r="9" fill="#2E2A26"/>
-  <!-- sonrisa -->
-  <path d="M212 234 Q240 250 268 234" fill="none" stroke="#F5EFE6" stroke-width="7" stroke-linecap="round"/>
-
-  <!-- balanza de la justicia, sostenida al frente -->
-  <g stroke="#2E2A26" stroke-width="7" stroke-linecap="round" fill="none">
-    <line x1="240" y1="300" x2="240" y2="340"/>
-    <line x1="176" y1="316" x2="304" y2="316"/>
-    <line x1="176" y1="316" x2="160" y2="348"/>
-    <line x1="176" y1="316" x2="192" y2="348"/>
-    <line x1="304" y1="316" x2="288" y2="348"/>
-    <line x1="304" y1="316" x2="320" y2="348"/>
+  <!-- lluvia de código (capa profunda) -->
+  <g font-family="'Courier New',monospace" font-size="17" fill="#00ff41" filter="url(#soft)">
+    <text x="30" y="0" opacity="0.38"><tspan x="30" dy="26">ア</tspan><tspan x="30" dy="22">7</tspan><tspan x="30" dy="22">シ</tspan><tspan x="30" dy="22">0</tspan><tspan x="30" dy="22">メ</tspan><tspan x="30" dy="22">1</tspan><tspan x="30" dy="22">カ</tspan><tspan x="30" dy="22">9</tspan><tspan x="30" dy="22">ワ</tspan><tspan x="30" dy="22">3</tspan><tspan x="30" dy="22">ネ</tspan><tspan x="30" dy="22">Z</tspan><tspan x="30" dy="22">5</tspan><tspan x="30" dy="22">ソ</tspan><tspan x="30" dy="22">8</tspan><tspan x="30" dy="22">ヒ</tspan></text>
+    <text x="64" y="-14" opacity="0.24"><tspan x="64" dy="26">1</tspan><tspan x="64" dy="22">ラ</tspan><tspan x="64" dy="22">4</tspan><tspan x="64" dy="22">ト</tspan><tspan x="64" dy="22">N</tspan><tspan x="64" dy="22">ク</tspan><tspan x="64" dy="22">2</tspan><tspan x="64" dy="22">ハ</tspan><tspan x="64" dy="22">0</tspan><tspan x="64" dy="22">ミ</tspan><tspan x="64" dy="22">6</tspan><tspan x="64" dy="22">サ</tspan><tspan x="64" dy="22">X</tspan><tspan x="64" dy="22">ル</tspan><tspan x="64" dy="22">7</tspan><tspan x="64" dy="22">タ</tspan></text>
+    <text x="98" y="8" opacity="0.30"><tspan x="98" dy="26">ケ</tspan><tspan x="98" dy="22">0</tspan><tspan x="98" dy="22">ヨ</tspan><tspan x="98" dy="22">5</tspan><tspan x="98" dy="22">フ</tspan><tspan x="98" dy="22">R</tspan><tspan x="98" dy="22">3</tspan><tspan x="98" dy="22">ニ</tspan><tspan x="98" dy="22">8</tspan><tspan x="98" dy="22">セ</tspan><tspan x="98" dy="22">1</tspan><tspan x="98" dy="22">モ</tspan><tspan x="98" dy="22">4</tspan><tspan x="98" dy="22">ウ</tspan><tspan x="98" dy="22">9</tspan><tspan x="98" dy="22">コ</tspan></text>
+    <text x="286" y="4" opacity="0.30"><tspan x="286" dy="26">3</tspan><tspan x="286" dy="22">キ</tspan><tspan x="286" dy="22">V</tspan><tspan x="286" dy="22">ユ</tspan><tspan x="286" dy="22">0</tspan><tspan x="286" dy="22">ホ</tspan><tspan x="286" dy="22">7</tspan><tspan x="286" dy="22">ア</tspan><tspan x="286" dy="22">2</tspan><tspan x="286" dy="22">ナ</tspan><tspan x="286" dy="22">9</tspan><tspan x="286" dy="22">エ</tspan><tspan x="286" dy="22">1</tspan><tspan x="286" dy="22">ス</tspan><tspan x="286" dy="22">6</tspan><tspan x="286" dy="22">リ</tspan></text>
+    <text x="320" y="-10" opacity="0.24"><tspan x="320" dy="26">ノ</tspan><tspan x="320" dy="22">8</tspan><tspan x="320" dy="22">テ</tspan><tspan x="320" dy="22">1</tspan><tspan x="320" dy="22">M</tspan><tspan x="320" dy="22">レ</tspan><tspan x="320" dy="22">5</tspan><tspan x="320" dy="22">オ</tspan><tspan x="320" dy="22">0</tspan><tspan x="320" dy="22">チ</tspan><tspan x="320" dy="22">4</tspan><tspan x="320" dy="22">ム</tspan><tspan x="320" dy="22">7</tspan><tspan x="320" dy="22">イ</tspan><tspan x="320" dy="22">2</tspan><tspan x="320" dy="22">ヤ</tspan></text>
+    <text x="354" y="12" opacity="0.36"><tspan x="354" dy="26">0</tspan><tspan x="354" dy="22">マ</tspan><tspan x="354" dy="22">6</tspan><tspan x="354" dy="22">ヌ</tspan><tspan x="354" dy="22">K</tspan><tspan x="354" dy="22">ロ</tspan><tspan x="354" dy="22">1</tspan><tspan x="354" dy="22">ツ</tspan><tspan x="354" dy="22">9</tspan><tspan x="354" dy="22">ヘ</tspan><tspan x="354" dy="22">3</tspan><tspan x="354" dy="22">ヲ</tspan><tspan x="354" dy="22">5</tspan><tspan x="354" dy="22">カ</tspan><tspan x="354" dy="22">8</tspan><tspan x="354" dy="22">シ</tspan></text>
+    <text x="152" y="-6" opacity="0.12"><tspan x="152" dy="26">9</tspan><tspan x="152" dy="22">ミ</tspan><tspan x="152" dy="22">2</tspan><tspan x="152" dy="22">サ</tspan></text>
+    <text x="242" y="2" opacity="0.12"><tspan x="242" dy="26">ハ</tspan><tspan x="242" dy="22">4</tspan><tspan x="242" dy="22">ネ</tspan></text>
   </g>
-  <path d="M156 348 a20 12 0 0 0 40 0 Z" fill="#D97757" stroke="#2E2A26" stroke-width="5"/>
-  <path d="M284 348 a20 12 0 0 0 40 0 Z" fill="#D97757" stroke="#2E2A26" stroke-width="5"/>
-  <circle cx="240" cy="300" r="8" fill="#2E2A26"/>
+
+  <!-- halo -->
+  <ellipse cx="200" cy="190" rx="150" ry="150" fill="url(#glow)"/>
+
+  <!-- ===== figura · capa de extrusión 2.5D ===== -->
+  <g transform="translate(9,9)" fill="#001708">
+    <path d="M200 112 c-30 0 -44 20 -44 50 c0 28 16 62 44 62 c28 0 44 -34 44 -62 c0 -30 -14 -50 -44 -50 Z"/>
+    <path d="M92 400 c4 -74 40 -108 82 -122 l26 -8 l26 8 c42 14 78 48 82 122 Z"/>
+  </g>
+
+  <!-- ===== figura · capa principal ===== -->
+  <g>
+    <!-- cuello -->
+    <path d="M182 208 h36 v34 h-36 Z" fill="#c9a077"/>
+    <path d="M182 214 c10 8 26 8 36 0 v12 c-10 8 -26 8 -36 0 Z" fill="#a97e58" opacity="0.6"/>
+
+    <!-- traje -->
+    <path d="M92 400 c4 -74 40 -108 82 -122 l26 24 l26 -24 c42 14 78 48 82 122 Z" fill="url(#suit)"/>
+    <path d="M92 400 c4 -74 40 -108 82 -122 l26 24 l26 -24 c42 14 78 48 82 122 Z" fill="none" stroke="#00ff41" stroke-opacity="0.22" stroke-width="2"/>
+    <!-- solapas -->
+    <path d="M174 278 l26 24 l-18 30 l-22 -34 Z" fill="#0d1410"/>
+    <path d="M226 278 l-26 24 l18 30 l22 -34 Z" fill="#0d1410"/>
+    <!-- camisa -->
+    <path d="M186 292 h28 l-6 56 h-16 Z" fill="#e9efe9"/>
+    <!-- corbata -->
+    <path d="M200 296 l9 12 l-6 44 l-3 6 l-3 -6 l-6 -44 Z" fill="url(#tie)"/>
+    <path d="M200 296 l9 12 l-9 4 l-9 -4 Z" fill="#123322"/>
+
+    <!-- cabeza -->
+    <path d="M200 112 c-30 0 -44 20 -44 50 c0 28 16 62 44 62 c28 0 44 -34 44 -62 c0 -30 -14 -50 -44 -50 Z" fill="#d9b48f"/>
+    <!-- orejas -->
+    <path d="M154 172 c-8 -2 -12 6 -8 14 c3 6 10 8 14 4 Z" fill="#c9a077"/>
+    <path d="M246 172 c8 -2 12 6 8 14 c-3 6 -10 8 -14 4 Z" fill="#c9a077"/>
+    <!-- pelo engominado hacia atrás -->
+    <path d="M156 164 c-3 -34 16 -54 44 -54 c28 0 47 20 44 54 l-7 2 c2 -20 -4 -32 -15 -37 c-7 -3 -14 -5 -22 -5 c-8 0 -15 2 -22 5 c-11 5 -17 17 -15 37 Z" fill="#1b1512"/>
+    <path d="M163 128 c10 -10 24 -14 37 -14 c13 0 27 4 37 14" fill="none" stroke="#3a2c22" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <!-- anteojos -->
+    <g>
+      <rect x="162" y="164" width="34" height="25" rx="7" fill="#05080a"/>
+      <rect x="204" y="164" width="34" height="25" rx="7" fill="#05080a"/>
+      <rect x="165" y="167" width="28" height="19" rx="5" fill="url(#lens)"/>
+      <rect x="207" y="167" width="28" height="19" rx="5" fill="url(#lens)"/>
+      <rect x="196" y="171" width="8" height="4" rx="2" fill="#05080a"/>
+      <path d="M162 172 l-8 -2 M238 172 l8 -2" stroke="#05080a" stroke-width="4" stroke-linecap="round"/>
+      <!-- reflejo -->
+      <path d="M169 170 l8 0 l-12 12 l0 -8 Z" fill="#b4ffce" opacity="0.35"/>
+      <path d="M211 170 l8 0 l-12 12 l0 -8 Z" fill="#b4ffce" opacity="0.35"/>
+    </g>
+    <!-- nariz y gesto -->
+    <path d="M199 192 c0 6 -1 9 -4 12 c3 3 7 3 10 0" fill="none" stroke="#b08a63" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M188 216 c8 4 18 4 24 -1" fill="none" stroke="#8a6947" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- auricular con cable -->
+    <circle cx="250" cy="180" r="5" fill="#0b0f0c" stroke="#00ff41" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M252 185 c10 22 2 44 -14 64 c-6 8 -8 16 -6 26" fill="none" stroke="#9fb3a6" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- brillo de borde inferior -->
+  <path d="M92 398 h216" stroke="#00ff41" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
 </svg>

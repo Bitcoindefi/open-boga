@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Si usás Agente Smith en investigación, docencia o práctica profesional, citalo así."
+type: software
+title: "Agente Smith — abogado generalista de IA para el derecho argentino sobre Claude Code"
+authors:
+  - name: "leocagli (Bitcoindefi)"
+repository-code: "https://github.com/Bitcoindefi/agente-smith"
+url: "https://github.com/Bitcoindefi/agente-smith"
+license: MIT
+version: 1.0.0
+date-released: "2026-07-18"
+keywords:
+  - legal-tech
+  - derecho-argentino
+  - claude-code
+  - mcp
+  - saij
+  - agente-ia
+  - abogacia
+abstract: >-
+  Agente abogado generalista para la práctica jurídica argentina sobre Claude Code:
+  ruteo por área del derecho, cómputo de plazos por jurisdicción, diagnóstico y
+  fundamentación de escritos, e investigación en vivo sobre SAIJ (jurisprudencia,
+  legislación y doctrina). Multi-jurisdicción (CABA/Nacional, Jujuy, Salta,
+  extensible), con workspace de casos privado por diseño. No constituye
+  asesoramiento legal: asiste el análisis profesional del abogado.

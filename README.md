@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.svg" width="180" alt="Agente Smith">
+  <img src="logo.png" width="220" alt="Agente Smith">
 </p>
 
 <h1 align="center">Agente Smith</h1>

@@ -32,13 +32,13 @@ if ($PSScriptRoot -and (Test-Path (Join-Path $PSScriptRoot "mcp-saij\server.mjs"
 Ok "Repo Agente Smith: $repo"
 
 # --- 1) Skills (todas propias, desde el repo) ---
-foreach ($s in @("abogacia-argentina","argentina-plazos","argentina-diagnostico","argentina-bucles","saij-argentina")) {
+foreach ($s in @("abogacia-argentina","argentina-formatos","argentina-plazos","argentina-diagnostico","argentina-bucles","saij-argentina")) {
   $srcDir = Join-Path $repo "skills\$s"
   $dstDir = Join-Path $skillsDir $s
   New-Item -ItemType Directory -Force -Path $dstDir | Out-Null
   Copy-Item (Join-Path $srcDir "*") $dstDir -Recurse -Force
 }
-Ok "5 skills instaladas en $skillsDir"
+Ok "6 skills instaladas en $skillsDir"
 
 # --- 2) MCP de SAIJ ---
 Copy-Item (Join-Path $repo "componentes\mcp-saij\server.mjs") (Join-Path $mcpDir "server.mjs") -Force

@@ -29,11 +29,11 @@ fi
 ok "Repo Agente Smith: $REPO"
 
 # 1) Skills (todas propias, desde el repo)
-for s in abogacia-argentina argentina-plazos argentina-diagnostico argentina-bucles saij-argentina; do
+for s in abogacia-argentina argentina-formatos argentina-plazos argentina-diagnostico argentina-bucles saij-argentina; do
   mkdir -p "$SKILLS/$s"
   cp -r "$REPO/skills/$s/." "$SKILLS/$s/"
 done
-ok "5 skills instaladas en $SKILLS"
+ok "6 skills instaladas en $SKILLS"
 
 # 2) MCP de SAIJ
 cp "$REPO/componentes/mcp-saij/server.mjs" "$MCPDIR/server.mjs"

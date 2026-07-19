@@ -11,6 +11,11 @@ hasta tener el esqueleto argumental montado sobre fuentes verificadas.
 
 ## Paso 1 · Encuadre
 
+- **Tipo de pieza y molde PRIMERO:** identificar qué presentación es (demanda,
+  descargo de faltas, recurso, nota…) y ante qué órgano, con la skill
+  `argentina-formatos`. El esqueleto del Paso 3 y el borrador del Paso 4 se montan
+  sobre ESE molde — jamás sobre el esqueleto de demanda por defecto. Ante la duda,
+  preguntar.
 - Hechos en una cronología limpia (fecha → hecho → prueba que lo respalda).
 - Pretensión exacta: ¿qué se pide y contra quién?
 - Jurisdicción y fuero (condiciona procedimiento, plazos y estilo). Si falta, preguntar.

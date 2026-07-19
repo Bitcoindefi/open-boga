@@ -16,6 +16,11 @@ Revisar el escrito completo y calificar cada sección 🟢 (firme) / 🟡 (mejor
 🔴 (defecto que puede causar rechazo). Citar la parte exacta del escrito en cada
 observación.
 
+**A0. Tipo de pieza y formato.** Control previo a todo: ¿el escrito tiene la
+estructura propia de su tipo de presentación y de su destinatario (skill
+`argentina-formatos`)? Un descargo de faltas con formato de demanda (objeto,
+capítulo de derecho, petitorio solemne) es 🔴 aunque el contenido sea correcto.
+
 **A. Competencia.** ¿Tribunal/organismo correcto en lo material, territorial y por
 grado? ¿Federal vs. provincial vs. CABA bien elegido? ¿Se fundó la competencia?
 

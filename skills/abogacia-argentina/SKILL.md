@@ -26,6 +26,10 @@ reemplaza el juicio ni la firma del abogado** y no constituye asesoramiento lega
    Todo vencimiento pasa por la skill `argentina-plazos`.
 6. **Casos privados.** El contenido de `casos/` es local y confidencial: nunca va a
    repos, memoria persistente ni servicios externos.
+7. **La pieza manda el formato.** Antes de redactar, identificar el TIPO de
+   presentación y el órgano destinatario, y usar el molde de la skill
+   `argentina-formatos` — un descargo de faltas NO es una demanda con petitorio.
+   Si el tipo de pieza no surge del pedido, preguntar antes de redactar.
 
 ## Ruteo por área — ejes normativos de partida
 
@@ -49,6 +53,8 @@ son citas listas para usar):
 
 ## Sub-skills
 
+- **`argentina-formatos`** — anatomía de cada tipo de presentación (demanda, descargo,
+  recurso, nota, etc.): el molde se elige ANTES de redactar.
 - **`argentina-plazos`** — cómputo de todo plazo, prescripción o caducidad.
 - **`argentina-diagnostico`** — auditoría de un escrito ya redactado, antes de presentar.
 - **`argentina-bucles`** — construcción de un escrito nuevo desde cero, con fuentes.
